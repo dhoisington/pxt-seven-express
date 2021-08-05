@@ -11,7 +11,7 @@ namespace HT16K33_Alnum4 {
     //% blockId=alnum_change_bright 
     //% block="show|number %number" blockGap=8
     //% async rightAlign.defl=1 interval.defl=250 shim=HT16K33_Alnum4::changeBright
-    export function changeBright(value: number, rightAlign?: boolean, interval?: number): void {
+    export function setBrightness(value: number, rightAlign?: boolean, interval?: number): void {
         console.log("brightness display:" + value);
         return;
     }
