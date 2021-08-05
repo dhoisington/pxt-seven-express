@@ -1,7 +1,7 @@
 {
-    "name": "HT16K33_Alnum4",
-    "version": "1.0.6",
-    "description": "Tinkercademy package for HT16K33 Alphanumeric Display",
+    "name": "7seg-backpack",
+    "version": "1.0.0",
+    "description": "Attempt at makecode plugin by Daniel Hoisington",
     "license": "MIT",
     "dependencies": {
         "core": "*"
