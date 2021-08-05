@@ -10,6 +10,8 @@
         "README.md",
         "alnum4.ts",
         "HT16K33_Alnum4.cpp"
+        "Adafruit_GFX.h"
+        "Adafruit_LEDBackpack.h"
     ],
     "public": true
 }
