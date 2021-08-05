@@ -1,6 +1,25 @@
 //% color=#008080 weight=100 icon="\uf26c"
-namespace HT16K33_Alnum4 {
+    namespace HT16K33_Alnum4 {
 
+
+        enum Brightnesses {
+            0=0x00,
+            1=0x01,
+            2=0x02,
+            3=0x03,
+            4=0x04,
+            5=0x05,
+            6=0x06,
+            7=0x07,
+            8=0x08,
+            9=0x09,
+            10=0x0A,
+            11=0x0B,
+            12=0x0C,
+            13=0x0D,
+            14=0x0E,
+            15=0x0F
+        }
 
 
     /**
@@ -11,7 +30,7 @@ namespace HT16K33_Alnum4 {
     //% blockId=alnum_change_bright 
     //% block="show|number %number" blockGap=8
     //% async rightAlign.defl=1 interval.defl=250 shim=HT16K33_Alnum4::changeBright
-    export function setBrightness(value: number, rightAlign?: boolean, interval?: number): void {
+    export function setBrightness(del : Brightnesses): void {
         console.log("brightness display:" + value);
         return;
     }
